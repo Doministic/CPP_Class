@@ -1,0 +1,10 @@
+{
+  "version": "0.2.1",
+  "tasks": [
+    {
+      "taskLabel": "task-CPP_Class",
+      "appliesTo": "CPP_Class.sln",
+      "type": "launch"
+    }
+  ]
+}
