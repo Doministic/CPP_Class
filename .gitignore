@@ -1,0 +1,63 @@
+# Compiled object files
+*.o
+*.obj
+
+# Executables
+*.exe
+*.out
+*.app
+
+# Libraries
+*.lib
+*.a
+*.dll
+*.so
+
+# Debugging symbols
+*.pdb
+*.dSYM
+
+# Visual Studio
+.vs/
+*.suo
+*.user
+*.ncb
+*.aps
+*.bak
+*.opensdf
+*.sdf
+*.ipch
+
+# Xcode
+build/
+*.pbxuser
+*.xcworkspace
+*.xcuserdatad
+
+# CLion
+.idea/
+
+# VS Code
+.vscode/
+
+# Other editors
+*~
+.#*
+
+# Temporary files
+*.tmp
+*.log
+
+# Cache directories
+cache/
+tmp/
+
+# Conan
+conan_build/
+conan_install/
+
+# vcpkg
+vcpkg_installed/
+
+# Environment variables or sensitive data
+.env
