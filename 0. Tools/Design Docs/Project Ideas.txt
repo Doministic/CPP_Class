@@ -1,0 +1,55 @@
+
+
+Project Ideas:
+
+	- Continuous Scroller 
+	- Idea similar to T-Rex on browser without interwebs
+	
+	Character:
+		-  Character to move ( moves in 1 direction ) 
+			- Jump up only 
+				- Based on length of input for jump key ( i.e. space bar ) 
+				- Fall will happen after release of jump or max jump time is hit
+			- Downward movement is not actual movement but a reaction
+			- Simulated forward movement 
+			- Death on hit of object in world
+		
+	World: 
+		- Background movement
+			- Background to loop
+			- Move towards character 
+				- Simulates Character Movement 
+		- Object Movement (Character ground style movement)
+			- Objects in intervals that are both random and spaced appropriately
+				- Character can jump over
+				- Space between objects needs to be achievable by jump 
+			- Floor Moves toward character 
+				- Simulates Character Moving forward
+			- Objects at just above character height 
+				- Make Jumps more meaningful
+				- Increases Difficulty 
+				
+	Game Loop: 
+		UI:
+			Point System:
+				- Length of run
+				- Number of Jumps
+				- Number of Items jumped over
+				- Increase over time
+				
+			Main Menu: 
+				- Start
+				- Stats
+					- Hold Highest Stats
+					- Most Recent Stats
+				- Difficulty
+					- Easy 
+					- Hard
+
+			Pause Menu: 
+				- Restart Game
+				- Exit to Main Menu
+				
+			In Game: 
+				- Points
+				- Game Over

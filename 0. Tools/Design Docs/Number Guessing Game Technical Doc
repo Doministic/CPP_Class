@@ -1,0 +1,44 @@
+- Number Guessing Game: (Game) - Game Loop
+	- Conditionals 
+	- Flow
+	- Player Response (input to computer response)
+	- Computer Input - "AI"
+	- Game setup 
+		- Label that starts empty ( Bug ) 
+			- You can see the label in the GUI before anything there 
+			
+	- Conceptualize the design in terms of color, setup, interactability (Using Tkinter) 
+		- make color more meaningful
+		- setup more intuitive
+	
+	- Interaction Fun
+		- personalization
+			- Ask for Name
+			- Other Idnetifying Features
+				profile questions 
+				pronouns
+					- list of available 
+						he / him
+						she / her
+						they / their
+				eye color
+				hair color
+		- player is guessing the number
+			- limited guesses
+			- counter on how many tries
+				- Bar that changes color based on number of guesses with a legend that shows "intelligence" based on number of guesses ( Bright Green "Genius" - Blood Red "Brute Dunce")
+		- Computer Input - "AI"
+			- After 1/3 of guesses respond with a remark from a list
+		- Allow player to choose the distance of numbers 
+			- 1 to 100 ( Easy x Number of tries )
+			- 1 to 1000 ( Normal x Number of tries )
+			- 1 to 5,000,000 ( Hard x Number of tries )
+			
+			
+			
+Technical Design: 
+Color Schema: 
+	- Color Player = Green: #00FF00
+	- Color AI = Red: #FF0000
+	- Button Color = Yellow: #FFF200
+	- Temp Placeholder Color = Bright Pink: #FF1CF0
