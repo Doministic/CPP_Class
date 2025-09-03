@@ -21,20 +21,12 @@
       "name": "singlefile",
       "inherits": "base",
       "displayName": "Sections 1–2 • Single-file build",
-      "description": "Pick SECTION/WEEK/CLASS/MAIN_FILE in CMake Settings (dropdowns come from CMakeLists).",
-      "binaryDir": "${sourceDir}/build/${presetName}-S$env{SECTION}-W$env{WEEK}-C$env{CLASS}",
+      "description": "Each .cpp with main() in the chosen class folder becomes its own executable.",
+      "binaryDir": "${sourceDir}/build/${presetName}",
       "cacheVariables": {
-        "SECTION": "$env{SECTION}",
-        "WEEK": "$env{WEEK}",
-        "CLASS": "$env{CLASS}",
-        "MAIN_FILE": "$env{MAIN_FILE}"
+        "BUILD_MODE":  "SingleFile"
       },
-      "environment": {
-        "SECTION": "01",
-        "WEEK": "01",
-        "CLASS": "01",
-        "MAIN_FILE": ""
-      }
+      "environment": {}
     },
 
     {
@@ -42,13 +34,11 @@
       "inherits": "base",
       "displayName": "Sections 3–9 • Whole-section build",
       "description": "Build entire section; requires a single main.cpp at the section root.",
-      "binaryDir": "${sourceDir}/build/${presetName}-S$env{SECTION}",
+      "binaryDir": "${sourceDir}/build/${presetName}",
       "cacheVariables": {
-        "SECTION": "$env{SECTION}"
+        "BUILD_MODE":  "Section"
       },
-      "environment": {
-        "SECTION": "03"
-      }
+      "environment": {}
     }
   ],
 

@@ -4,40 +4,46 @@
 int main()
 {
 
-	// Character type in C++
-	// char is a data type that can hold a single character
-	// It is typically 1 byte in size, which can hold 256 different values (0 to 255)
-	std::cout << "Size of char: " << sizeof(char) << " bytes\n";
+	// Integer type in C++
+	// The int type is the most commonly used type in C++
+	// Integers take many forms, in games these can be seen as health, countdown timers, scores, etc.
 
-	// Character literals in C++ are enclosed in single quotes
-	std::cout << "Character literal 'A': " << 'A' << "\n";
+	// basic integer declaration 
+	// from now on you will generally see only the copy initialization
+	// Ints are generally condsidered 32 bits in size, however, can also be seen as 64 bits, or even 16 bits depending on the system.
+	int health = 100; // instantiating a players health
 
-	// Creating a char in C++
-	char myChar = 'A';  // single character
-	std::cout << "myChar: " << myChar << "\n";
+	// a short or short integer is a smaller memory sized int. 
+	// taking up less memory, at 16 bits instead of 32, 
+	short lives = 3; // instantiating a players lives
 
+	// a long or long integer is a larger memory sized int.
+	// taking up more memory, at 64 bits instead of 32,
+	long score = 1000000; // instantiating a players score
 
-	// Different ways of Initialization 
-	char a = 97;  // copy initialization (C style initialization)
-	char b(98);  // direct initialization (Early CPP standard for initialization) 
-	char c{ 99 };  // list intialization (C++11 standard initialization)
+	// a long long is an even larger memory sized int.
+	// taking up even more memory, at 128 bits instead of 64,
+	long long highScore = 9999999999; // instantiating a players high score
 
-	std::cout << "a: " << a << "\n";
-	std::cout << "b: " << b << "\n";
-	std::cout << "c: " << c << "\n";
+	std::cout << "Integer declaration - Player's Health: " << health << " takes up: " << sizeof(health) << " Bytes.\n";
+	std::cout << "Short declaration - Player's Lives: " << lives << " takes up: " << sizeof(lives) << " Bytes.\n";
+	std::cout << "Long declaratiopn - Player's Score: " << score << " takes up: " << sizeof(score) << " Bytes.\n";
+	std::cout << "Long Long declaration - Player's High Score: " << highScore << " takes up: " << sizeof(score) << " Bytes.\n";
+	
 
-	/*
-	// What happens when a variable does not have any initialization?
-	// This can create indeterminate values if we utilize variables without a propper initilization
-	char d; // standard way to initialize a variable
-	std::cout << "d: " << d << "\n";  // uninitialized variable, may contain "garbage" value
-	*/
+	// Integer literals can be written in different bases
+	// Decimal (base 10) - the default base for integers
+	int decimal = 42; // 42 in decimal
+	// Hexadecimal (base 16) - prefixed with 0x or 0X
+	int hexadecimal = 0x2A; // 42 in hexadecimal
+	// Octal (base 8) - prefixed with 0
+	int octal = 052; // 42 in octal
+	// Binary (base 2) - prefixed with 0b or 0B (C++14 and later)
+	int binary = 0b101010; // 42 in binary
+	std::cout << "Decimal: " << decimal << "\n";
+	std::cout << "Hexadecimal: " << std::hex << hexadecimal << "\n";
+	std::cout << "Octal: " << std::oct << octal << "\n";
+	std::cout << "Binary: " << binary << static_cast<void*>(&binary) << "\n";
 
-	/*
-	char ch = 'A';
-	std::cout << "The size of a char: " << sizeof(char) << " in Byte(s)\n";
-	std::cout << "The size of a char: " << CHAR_BIT << " in Bit(s)\n";
-	std::cout << "The size of the variable ch: " << ch <<" of type char: " << sizeof(ch) << " in Byte(s)\n";
-	*/
 	return 0;  // Return 0 to indicate successful execution
 }
