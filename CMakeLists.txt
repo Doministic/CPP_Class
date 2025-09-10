@@ -159,7 +159,7 @@ if(BUILD_MODE STREQUAL "SingleFile")
 
       set(_tgt "class${CLASS_PAD}_${_subject}")
 
-      add_executable(${_tgt} "${f}" "1. Core Foundations/Week_2/Class 4/class04_char_arithmatic01.cpp" "1. Core Foundations/Week_2/Class 4/class04_int_arithmatic02.cpp" "1. Core Foundations/Week_2/Class 4/class04_float_arithmatic03.cpp")
+      add_executable(${_tgt} "${f}" "1. Core Foundations/Week_2/Class 4/class04_char.cpp" "1. Core Foundations/Week_2/Class 4/class04_int.cpp" "1. Core Foundations/Week_2/Class 4/class04_float.cpp")
       # >>> STRICT: only include THIS class folder (prevents accidental reach-up)
       target_include_directories(${_tgt} PRIVATE "${CLASS_DIR}")
 
