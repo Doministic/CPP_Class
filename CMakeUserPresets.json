@@ -1,0 +1,53 @@
+{
+  "version": 6,
+
+  "configurePresets": [
+    /* ==== Section 1 • Week 1 ==== */
+    { "name": "sf-S01-W01-C01", "inherits": "singlefile", "displayName": "Single-file • S01 W01 C01",
+      "cacheVariables": { "BUILD_MODE": "SingleFile", "SECTION": "01", "WEEK": "01", "CLASS": "01" } },
+    { "name": "sf-S01-W01-C02", "inherits": "singlefile", "displayName": "Single-file • S01 W01 C02",
+      "cacheVariables": { "BUILD_MODE": "SingleFile", "SECTION": "01", "WEEK": "01", "CLASS": "02" } },
+    { "name": "sf-S01-W01-C03", "inherits": "singlefile", "displayName": "Single-file • S01 W01 C03",
+      "cacheVariables": { "BUILD_MODE": "SingleFile", "SECTION": "01", "WEEK": "01", "CLASS": "03" } },
+    { "name": "sf-S01-W01-C04", "inherits": "singlefile", "displayName": "Single-file • S01 W01 C04",
+      "cacheVariables": { "BUILD_MODE": "SingleFile", "SECTION": "01", "WEEK": "01", "CLASS": "04" } },
+    { "name": "sf-S01-W01-C05", "inherits": "singlefile", "displayName": "Single-file • S01 W01 C05",
+      "cacheVariables": { "BUILD_MODE": "SingleFile", "SECTION": "01", "WEEK": "01", "CLASS": "05" } },
+
+    /* ==== Section 1 • Week 2 ==== */
+    { "name": "sf-S01-W02-C01", "inherits": "singlefile", "displayName": "Single-file • S01 W02 C01",
+      "cacheVariables": { "BUILD_MODE": "SingleFile", "SECTION": "01", "WEEK": "02", "CLASS": "01" } },
+    { "name": "sf-S01-W02-C02", "inherits": "singlefile", "displayName": "Single-file • S01 W02 C02",
+      "cacheVariables": { "BUILD_MODE": "SingleFile", "SECTION": "01", "WEEK": "02", "CLASS": "02" } },
+    { "name": "sf-S01-W02-C03", "inherits": "singlefile", "displayName": "Single-file • S01 W02 C03",
+      "cacheVariables": { "BUILD_MODE": "SingleFile", "SECTION": "01", "WEEK": "02", "CLASS": "03" } },
+    { "name": "sf-S01-W02-C04", "inherits": "singlefile", "displayName": "Single-file • S01 W02 C04",
+      "cacheVariables": { "BUILD_MODE": "SingleFile", "SECTION": "01", "WEEK": "02", "CLASS": "04" } },
+    { "name": "sf-S01-W02-C05", "inherits": "singlefile", "displayName": "Single-file • S01 W02 C05",
+      "cacheVariables": { "BUILD_MODE": "SingleFile", "SECTION": "01", "WEEK": "02", "CLASS": "05" } },
+
+    /* ==== Section 2 • Week 1 ==== */
+    { "name": "sf-S02-W01-C01", "inherits": "singlefile", "displayName": "Single-file • S02 W01 C01",
+      "cacheVariables": { "BUILD_MODE": "SingleFile", "SECTION": "02", "WEEK": "01", "CLASS": "01" } },
+    { "name": "sf-S02-W01-C02", "inherits": "singlefile", "displayName": "Single-file • S02 W01 C02",
+      "cacheVariables": { "BUILD_MODE": "SingleFile", "SECTION": "02", "WEEK": "01", "CLASS": "02" } },
+    { "name": "sf-S02-W01-C03", "inherits": "singlefile", "displayName": "Single-file • S02 W01 C03",
+      "cacheVariables": { "BUILD_MODE": "SingleFile", "SECTION": "02", "WEEK": "01", "CLASS": "03" } },
+    { "name": "sf-S02-W01-C04", "inherits": "singlefile", "displayName": "Single-file • S02 W01 C04",
+      "cacheVariables": { "BUILD_MODE": "SingleFile", "SECTION": "02", "WEEK": "01", "CLASS": "04" } },
+    { "name": "sf-S02-W01-C05", "inherits": "singlefile", "displayName": "Single-file • S02 W01 C05",
+      "cacheVariables": { "BUILD_MODE": "SingleFile", "SECTION": "02", "WEEK": "01", "CLASS": "05" } },
+
+    /* ==== Section 2 • Week 2 ==== */
+    { "name": "sf-S02-W02-C01", "inherits": "singlefile", "displayName": "Single-file • S02 W02 C01",
+      "cacheVariables": { "BUILD_MODE": "SingleFile", "SECTION": "02", "WEEK": "02", "CLASS": "01" } },
+    { "name": "sf-S02-W02-C02", "inherits": "singlefile", "displayName": "Single-file • S02 W02 C02",
+      "cacheVariables": { "BUILD_MODE": "SingleFile", "SECTION": "02", "WEEK": "02", "CLASS": "02" } },
+    { "name": "sf-S02-W02-C03", "inherits": "singlefile", "displayName": "Single-file • S02 W02 C03",
+      "cacheVariables": { "BUILD_MODE": "SingleFile", "SECTION": "02", "WEEK": "02", "CLASS": "03" } },
+    { "name": "sf-S02-W02-C04", "inherits": "singlefile", "displayName": "Single-file • S02 W02 C04",
+      "cacheVariables": { "BUILD_MODE": "SingleFile", "SECTION": "02", "WEEK": "02", "CLASS": "04" } },
+    { "name": "sf-S02-W02-C05", "inherits": "singlefile", "displayName": "Single-file • S02 W02 C05",
+      "cacheVariables": { "BUILD_MODE": "SingleFile", "SECTION": "02", "WEEK": "02", "CLASS": "05" } }
+  ]
+}
