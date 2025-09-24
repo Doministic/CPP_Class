@@ -72,6 +72,17 @@
         "WEEK": "03",
         "CLASS": "06"
       }
+    },
+    {
+      "name": "sf-S01-W04-C07",
+      "inherits": "singlefile",
+      "displayName": "Single-file • S01 W04 C07",
+      "cacheVariables": {
+        "BUILD_MODE": "SingleFile",
+        "SECTION": "01",
+        "WEEK": "04",
+        "CLASS": "07"
+      }
     }
   ]
 }
