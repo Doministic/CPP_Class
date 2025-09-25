@@ -48,9 +48,9 @@
         "WEEK": "02",
         "CLASS": "04"
       }
-        },
+    },
 
-    /* ==== Section 1 • Week 2 ==== */
+    /* ==== Section 1 • Week 3 ==== */
     {
       "name": "sf-S01-W03-C05",
       "inherits": "singlefile",
@@ -73,6 +73,8 @@
         "CLASS": "06"
       }
     },
+
+    /* ==== Section 1 • Week 4 ==== */
     {
       "name": "sf-S01-W04-C07",
       "inherits": "singlefile",
@@ -82,6 +84,137 @@
         "SECTION": "01",
         "WEEK": "04",
         "CLASS": "07"
+      }
+    },
+    {
+      "name": "sf-S01-W04-C08",
+      "inherits": "singlefile",
+      "displayName": "Single-file • S01 W04 C08",
+      "cacheVariables": {
+        "BUILD_MODE": "SingleFile",
+        "SECTION": "01",
+        "WEEK": "04",
+        "CLASS": "08"
+      }
+    },
+
+    /* ==== Section 2 • Week 5 ==== */
+    {
+      "name": "sf-S02-W05-C09",
+      "inherits": "singlefile",
+      "displayName": "Single-file • S02 W05 C09",
+      "cacheVariables": {
+        "BUILD_MODE": "SingleFile",
+        "SECTION": "02",
+        "WEEK": "05",
+        "CLASS": "09"
+      }
+    },
+    {
+      "name": "sf-S02-W05-C10",
+      "inherits": "singlefile",
+      "displayName": "Single-file • S02 W05 C10",
+      "cacheVariables": {
+        "BUILD_MODE": "SingleFile",
+        "SECTION": "02",
+        "WEEK": "05",
+        "CLASS": "10"
+      }
+    },
+
+    /* ==== Section 2 • Week 6 ==== */
+    {
+      "name": "sf-S02-W06-C11",
+      "inherits": "singlefile",
+      "displayName": "Single-file • S02 W06 C11",
+      "cacheVariables": {
+        "BUILD_MODE": "SingleFile",
+        "SECTION": "02",
+        "WEEK": "06",
+        "CLASS": "11"
+      }
+    },
+    {
+      "cacheVariables": {
+        "BUILD_MODE": "SingleFile",
+        "SECTION": "02",
+        "WEEK": "06",
+        "CLASS": "12"
+      },
+      "displayName": "Single-file • S02 W06 C12",
+      "inherits": "singlefile",
+      "name": "sf-S02-W06-C12"
+    },
+
+    /* ==== Section 2 • Week 7 ==== */
+    {
+      "name": "sf-S02-W07-C13",
+      "inherits": "singlefile",
+      "displayName": "Single-file • S02 W07 C13",
+      "cacheVariables": {
+        "BUILD_MODE": "SingleFile",
+        "SECTION": "02",
+        "WEEK": "07",
+        "CLASS": "13"
+      }
+    },
+    {
+      "name": "sf-S02-W07-C14",
+      "inherits": "singlefile",
+      "displayName": "Single-file • S02 W07 C14",
+      "cacheVariables": {
+        "BUILD_MODE": "SingleFile",
+        "SECTION": "02",
+        "WEEK": "06",
+        "CLASS": "12"
+      }
+    },
+
+    /* ==== Section 2 • Week 8 ==== */
+    {
+      "name": "sf-S02-W08-C15",
+      "inherits": "singlefile",
+      "displayName": "Single-file • S02 W08 C15",
+      "cacheVariables": {
+        "BUILD_MODE": "SingleFile",
+        "SECTION": "02",
+        "WEEK": "08",
+        "CLASS": "15"
+      }
+    },
+    {
+      "name": "sf-S02-W08-C16",
+      "inherits": "singlefile",
+      "displayName": "Single-file • S02 W08 C16",
+      "cacheVariables": {
+        "BUILD_MODE": "SingleFile",
+        "SECTION": "02",
+        "WEEK": "08",
+        "CLASS": "16"
+      }
+    },
+
+    /* ==== Section 2 • Week 9 ==== */
+    {
+      "name": "sf-S02-W09-C17",
+      "inherits": "singlefile",
+      "displayName": "Single-file • S02 W09 C17",
+      "cacheVariables": {
+        "BUILD_MODE": "SingleFile",
+        "SECTION": "02",
+        "WEEK": "09",
+        "CLASS": "17"
+      }
+    },
+    {
+      "name": "sf-S02-W09-C18",
+      "inherits": "singlefile",
+      "displayName": "Single-file • S02 W09 C18",
+      "cacheVariables": {
+        "BUILD_MODE": "SingleFile",
+        "SECTION": "02",
+        "WEEK": "09",
+        "CLASS": "18"
       }
     }
   ]
