@@ -140,9 +140,9 @@ static int& getUserInput(int& userInput)
 	return userInput;
 }
 
-static int playAgain(char *playAgain)
+static int playAgain(char* playAgain)
 {
-	std::cout << "Would you like to play again? ('y' or 'n'): ";
+	std::cout << "Would you like to play again? ('y' or 'n'): \n";
 	if (*playAgain == 'y')
 	{
 		std::cout << "Great! Let's play again!\n";
@@ -216,7 +216,7 @@ int main()
 			{
 				std::cout << "Congrats you guess the number: " << numberToGuess << "!\n";
 				std::cout << "You win the game!\n";
-				std::cin >> play;
+				std::cin >> &play;
 				playing = playAgain(&play);
 				break;
 			} else if (attempts == 0)
