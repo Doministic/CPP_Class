@@ -3,7 +3,7 @@ Section 1:
 01. Char
 02. Int
 03. Float
-04. Arithmatic
+04. Arithmetic
 05. Bool
 06. Flow
 07. Loops
@@ -18,19 +18,20 @@ Section 2:
 14. Enumerations
 15. Vectors
 16. Input / Output
-17. Advanced Arrays 
-18. guessingGame (Pulling everything together)
+16.5. 
+17. Includes Header Files and Libraries 
+18. Guessing Game (Pulling everything together)
 
 Section 3:
 19. OOP Basics
-20. Includes, Header Files, and Libraries
+20. Advanced Arrays
 21. Classes
-22.	Design / Technical 
+22. Design / Technical Documents 
 23. Project1 - Basic Classes Project (Guessing Game 2.0)
 24. Error Handling
 25. Structs
 26. Project2 - Basic Structs Project (Creating Tic Tac Toe - ASCII Art Style)
 27. File Handling (I/O)
-28. Algorithms
+28. Algorithms (Big O Notation) Time Complexity / Space Complexity
 29. Project 3 - Flappy Bird / Helicopter Game - Create a player profile and load it into the app to show player results
-30. Fucntion Overloading
+30. Function Overloading
