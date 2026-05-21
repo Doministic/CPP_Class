@@ -27,7 +27,7 @@ int main()
 	*/
 
 	// While Loop
-	int guess = 60;
+	int magicNum = 60;
 	int playerGuess = 0;
 	/*
 	while (true)
@@ -52,16 +52,16 @@ int main()
 		std::cout << "Hello to the hardest game ever! \n";
 		std::cout << "Guess a number between 1 and 100: \n";
 		std::cin >> playerGuess;
-		if (playerGuess < guess) {
+		if (playerGuess < magicNum) {
 			std::cout << "Your guess is too low! Try again. \n";
 		}
-		else if (playerGuess > guess) {
+		else if (playerGuess > magicNum) {
 			std::cout << "Your guess is too high! Try again. \n";
 		}
 		else {
 			std::cout << "Congratulations! You guessed the number! \n";
 		}
-	} while (playerGuess != guess);
+	} while (playerGuess != magicNum);
 
 	return 0;
 }

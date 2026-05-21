@@ -55,7 +55,7 @@ int main()
 		std::cout << "Has Enough Money" << std::endl;
 	}
 
-	/*
+	
 	// Switch Statements: 
 
 	char yes = 'y';
@@ -75,7 +75,7 @@ int main()
 			break; // breaks out of the switch statement
 			// no break here will continue to next case
 	}
-	*/
+	
 
 	return 0;
 }

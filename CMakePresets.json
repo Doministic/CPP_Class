@@ -20,59 +20,53 @@
     {
       "name": "singlefile",
       "inherits": "base",
-      "displayName": "Sections 1–2 • Single-file build",
-      "description": "Each .cpp with main() in the chosen class folder becomes its own executable.",
-      "binaryDir": "${sourceDir}/build/${presetName}",
+      "displayName": "SingleFile • Sections 1–2",
       "cacheVariables": {
-        "BUILD_MODE":  "SingleFile"
-      },
-      "environment": {}
+        "BUILD_MODE": "SingleFile"
+      }
     },
 
     {
-      "name": "section",
+      "name": "multifile",
       "inherits": "base",
-      "displayName": "Sections 3–9 • Whole-section build",
-      "description": "Build entire section; requires a single main.cpp at the section root.",
-      "binaryDir": "${sourceDir}/build/${presetName}",
+      "displayName": "MultiFile • Sections 3–4",
       "cacheVariables": {
-        "BUILD_MODE":  "Section"
-      },
-      "environment": {}
+        "BUILD_MODE": "MultiFile"
+      }
     }
   ],
 
   "buildPresets": [
     {
       "name": "singlefile-Debug",
-      "displayName": "Single-file • Debug",
+      "displayName": "SingleFile • Debug",
       "configurePreset": "singlefile",
       "configuration": "Debug"
     },
     {
       "name": "singlefile-Release",
-      "displayName": "Single-file • Release",
+      "displayName": "SingleFile • Release",
       "configurePreset": "singlefile",
       "configuration": "Release"
     },
     {
-      "name": "section-Debug",
-      "displayName": "Whole-section • Debug",
-      "configurePreset": "section",
+      "name": "multifile-Debug",
+      "displayName": "MultiFile • Debug",
+      "configurePreset": "multifile",
       "configuration": "Debug"
     },
     {
-      "name": "section-Release",
-      "displayName": "Whole-section • Release",
-      "configurePreset": "section",
+      "name": "multifile-Release",
+      "displayName": "MultiFile • Release",
+      "configurePreset": "multifile",
       "configuration": "Release"
     }
   ],
 
   "workflowPresets": [
     {
-      "name": "wf-singlefile-Debug",
-      "displayName": "▶ Single-file Debug",
+      "name": "sf-debug",
+      "displayName": "▶ SingleFile Debug",
       "steps": [
         {
           "type": "configure",
@@ -85,8 +79,8 @@
       ]
     },
     {
-      "name": "wf-singlefile-Release",
-      "displayName": "▶ Single-file Release",
+      "name": "sf-release",
+      "displayName": "▶ SingleFile Release",
       "steps": [
         {
           "type": "configure",
@@ -99,30 +93,30 @@
       ]
     },
     {
-      "name": "wf-section-Debug",
-      "displayName": "▶ Whole-section Debug",
+      "name": "mf-debug",
+      "displayName": "▶ MultiFile Debug",
       "steps": [
         {
           "type": "configure",
-          "name": "section"
+          "name": "multifile"
         },
         {
           "type": "build",
-          "name": "section-Debug"
+          "name": "multifile-Debug"
         }
       ]
     },
     {
-      "name": "wf-section-Release",
-      "displayName": "▶ Whole-section Release",
+      "name": "mf-release",
+      "displayName": "▶ MultiFile Release",
       "steps": [
         {
           "type": "configure",
-          "name": "section"
+          "name": "multifile"
         },
         {
           "type": "build",
-          "name": "section-Release"
+          "name": "multifile-Release"
         }
       ]
     }

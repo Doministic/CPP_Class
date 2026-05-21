@@ -7,5 +7,16 @@
 int main()
 {
 
+	enum DaysOfWeek
+	{
+		MONDAY,
+		TUESDAY,
+		WEDNESDAY,
+		THURSDAY,
+		FRIDAY,
+		SATURDAY,
+		SUNDAY
+	}; 
+
 	return 0;
 }

@@ -1,5 +1,5 @@
 Class List: 
-Section 1:
+MultiFile 1:
 01. Char
 02. Int
 03. Float
@@ -9,7 +9,7 @@ Section 1:
 07. Loops
 08. Bitwise
 
-Section 2:
+MultiFile 2:
 09. Pointers
 10. Functions (Basics)
 11. References
@@ -21,7 +21,7 @@ Section 2:
 17. Advanced Arrays 
 18. guessingGame (Pulling everything together)
 
-Section 3:
+MultiFile 3:
 19. OOP Basics
 20. Includes, Header Files, and Libraries
 21. Classes
